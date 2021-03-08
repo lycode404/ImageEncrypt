@@ -13,7 +13,7 @@ def createPassword():
     pwdList = list(range(16777216)) 
     # 列表的索引和元素即表示各种颜色的对应关系
     # Example:
-    # pwdList[114514] == 1919810 即表示把颜色114514替换成1919810
+    # pwdList[114514] == 1919810 即表示把颜色114514(#01BF52)替换成1919810(#1D4B42)
     print('打乱顺序……')
     for i in range(17000000):#随机替换次数，可以提高这个次数使密码更随机，但是会耗费更多时间。
         x,y = random.randint(0,16777215),random.randint(0,16777215)
